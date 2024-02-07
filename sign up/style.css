@@ -1,0 +1,64 @@
+/* body {
+  background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 90, 121, 1) 35%,
+      rgba(0, 212, 255, 1) 100%
+    ); 
+} */
+#form{
+  background-color: #94bbe9;
+  border: #5c19b3;
+  margin: 100px 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #5c19b3;
+}
+h1{
+  color: #5c19b3;
+  text-align: center;
+}
+.input-group{
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  color: #7f048a;
+}
+#form button{
+  background-color: #5c19b3;
+  border: #5c19b3;
+  color: #eeaeca;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #74549e;
+}
+.input-group input{
+  width: auto;
+  padding: 10px ;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #74549e;
+  border: #5c19b3;
+  font-size: 15px;
+  margin: 3px;
+}
+.input-group input:focus{
+  outline:#94bbe9
+}
+
+.input-group .error{
+  color:rgb(242, 18, 18);
+  font-size:16px;
+  margin-top: 5px;
+}
+
+.input-group.success input{
+  border-color: #0cc477;
+  box-shadow: 0px 0px 10px #0cc477;
+}
+
+.input-group.error input{
+  border-color:rgb(206, 67, 67);
+  box-shadow: 0px 0px 10px rgb(206, 67, 67);
+}
